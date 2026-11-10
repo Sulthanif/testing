@@ -43,9 +43,33 @@ public class Main {
                     System.out.println("Sisi 3 = Ganjil");
                 }
                 break;
-            case 2:
 
+            case 2:
+                if (Sisi1 == 0) {
+                    System.out.println("Sisi 1 = Nol");
+                } else if (Sisi1 > 0) {
+                    System.out.println("Sisi 1 = positif");
+                } else {
+                    System.out.println("Sisi 1 = negatif");
+                }
+
+                if (Sisi2 == 0) {
+                    System.out.println("Sisi 2 = Nol");
+                } else if (Sisi2 > 0) {
+                    System.out.println("Sisi 2 = positif");
+                } else {
+                    System.out.println("Sisi 2 = negatif");
+                }
+
+                if (Sisi3 == 0) {
+                    System.out.println("Sisi 3 = Nol");
+                } else if (Sisi3 > 0) {
+                    System.out.println("Sisi 3 = positif");
+                } else {
+                    System.out.println("Sisi 3 = negatif");
+                }
                 break;
+
             case 3:
 
                 break;
