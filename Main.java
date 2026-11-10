@@ -25,7 +25,23 @@ public class Main {
 
         switch (Pilih) {
             case 1:
+                if (Sisi1 % 2 == 0) {
+                    System.err.println("Sisi 1 = Genap");
+                } else {
+                    System.out.println("Sisi 1 = Ganjil");
+                }
 
+                if (Sisi2 % 2 == 0) {
+                    System.err.println("Sisi 2 = Genap");
+                } else {
+                    System.out.println("Sisi 2 = Ganjil");
+                }
+
+                if (Sisi3 % 2 == 0) {
+                    System.err.println("Sisi 3 = Genap");
+                } else {
+                    System.out.println("Sisi 3 = Ganjil");
+                }
                 break;
             case 2:
 
