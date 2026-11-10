@@ -205,6 +205,7 @@ public class Main {
                 break;
 
             default:
+                System.out.println("Pilihanmu Tidak Valid");
                 break;
         }
     }
