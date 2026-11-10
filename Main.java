@@ -192,7 +192,16 @@ public class Main {
                 break;
 
             case 6:
-
+                if (Sisi1 <= 0 || Sisi2 <= 0 || Sisi3 <= 0 || Sisi1 + Sisi2 <= Sisi3 || Sisi1 + Sisi3 <= Sisi2
+                        || Sisi2 + Sisi3 <= Sisi1) {
+                    System.out.println("Bukan Segitiga");
+                } else if (Sisi1 == Sisi2 && Sisi1 == Sisi3) {
+                    System.out.println("Segitiga Sama Sisi");
+                } else if (Sisi1 == Sisi2 || Sisi2 == Sisi3 || Sisi1 == Sisi3) {
+                    System.out.println("Segitiga Sama Kaki");
+                } else {
+                    System.out.println("Segitiga Sembarang");
+                }
                 break;
 
             default:
