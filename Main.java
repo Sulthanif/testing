@@ -71,6 +71,28 @@ public class Main {
                 break;
 
             case 3:
+                System.out.println("Masukin Nilai Anda : ");
+                int Nilai = segitiga.nextInt();
+
+                if (Nilai >= 85 && Nilai <= 100) {
+                    System.out.println("Grade : " + "A");
+                } else if (Nilai >= 70) {
+                    System.out.println("Grade : " + "B");
+                } else if (Nilai >= 55) {
+                    System.out.println("Grade : " + "C");
+                } else if (Nilai >= 0) {
+                    System.out.println("Grade : " + "D");
+                } else {
+                    System.out.println("Nilai Anda Tidak Valid");
+                }
+
+                if (Nilai >= 55 && Nilai <= 100) {
+                    System.out.println("Status : " + "Lulus");
+                } else if (Nilai >= 0 && Nilai < 55) {
+                    System.out.println("Grade : " + "Tidak Lulus");
+                } else {
+                    System.out.println("Nilai Anda Tidak Valid");
+                }
 
                 break;
 
@@ -167,7 +189,6 @@ public class Main {
                         System.out.println("Operator Tidak Diketahui");
                         break;
                 }
-
                 break;
 
             case 6:
