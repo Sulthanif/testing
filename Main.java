@@ -121,8 +121,19 @@ public class Main {
                 break;
 
             case 5:
+                System.out.println("Isi Nilai 1 :");
+                double Nilai1 = segitiga.nextInt();
+                System.out.println("Isi Nilai 2 :");
+                double Nilai2 = segitiga.nextInt();
+
+                System.out.println("Nilai 1 = " + Nilai1);
+                System.out.println("Nilai 2 = " + Nilai2);
+
+                System.out.println("Isi Operator Yang Di Ingin Kan (+,-,*,/,%) : ");
+                String Operator = segitiga.nextLine();
 
                 break;
+
             case 6:
 
                 break;
