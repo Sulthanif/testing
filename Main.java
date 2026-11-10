@@ -147,14 +147,13 @@ public class Main {
                 double Nilai1 = segitiga.nextInt();
                 System.out.println("Isi Nilai 2 :");
                 double Nilai2 = segitiga.nextInt();
-
+                segitiga.nextLine();
                 System.out.println("Nilai 1 = " + Nilai1);
                 System.out.println("Nilai 2 = " + Nilai2);
                 double Hasil;
 
                 System.out.println("Isi Operator Yang Di Ingin Kan (+,-,*,/,%) : ");
                 String Operator = segitiga.nextLine();
-
                 switch (Operator) {
                     case "+":
                         Hasil = Nilai1 + Nilai2;
@@ -172,11 +171,11 @@ public class Main {
                         break;
 
                     case "/":
-                        if (Nilai2 > 0 && Nilai2 <= 0) {
+                        if (Nilai2 == 0) {
+                            System.out.println("Nilai 2 Tidak Boleh 0");
+                        } else {
                             Hasil = Nilai1 / Nilai2;
                             System.out.println("Hasil = " + Hasil);
-                        } else {
-                            System.out.println("Nilai 2 Tidak Boleh 0");
                         }
                         break;
 
