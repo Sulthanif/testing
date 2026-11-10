@@ -73,9 +73,53 @@ public class Main {
             case 3:
 
                 break;
-            case 4:
 
+            case 4:
+                System.out.println("Masukin Tanggal 1-7");
+                int Tanggal = segitiga.nextInt();
+                String Hari;
+                switch (Tanggal) {
+                    case 1:
+                        Hari = "Senin";
+                        System.out.println("Hari = " + Hari);
+                        break;
+
+                    case 2:
+                        Hari = "Selasa";
+                        System.out.println("Hari = " + Hari);
+                        break;
+
+                    case 3:
+                        Hari = "Rabu";
+                        System.out.println("Hari = " + Hari);
+                        break;
+
+                    case 4:
+                        Hari = "Kamis";
+                        System.out.println("Hari = " + Hari);
+                        break;
+
+                    case 5:
+                        Hari = "Jumat";
+                        System.out.println("Hari = " + Hari);
+                        break;
+
+                    case 6:
+                        Hari = "Sabtu";
+                        System.out.println("Hari = " + Hari);
+                        break;
+
+                    case 7:
+                        Hari = "Minggu";
+                        System.out.println("Hari = " + Hari);
+                        break;
+
+                    default:
+                        System.out.println("Pilihan Tanggalmu Tidak Tersedia.");
+                        break;
+                }
                 break;
+
             case 5:
 
                 break;
@@ -86,6 +130,5 @@ public class Main {
             default:
                 break;
         }
-
     }
 }
